@@ -11,3 +11,175 @@ h5,
 h6 {
 	margin: 0;
 }
+
+.title {
+	font-family: Noto Sans, serif;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 1.25;
+}
+
+.subtitle1 {
+	font-family: Noto Sans, serif;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.subtitle2 {
+	font-family: Noto Sans, serif;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+.body1 {
+	font-family: Noto Sans, serif;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.body2 {
+	font-family: Noto Sans, serif;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+.overline {
+	font-family: Noto Sans, serif;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+
+#main {
+	margin-left: 86px;
+}
+
+#playlist-info {
+	margin-top: 86px;
+	margin-bottom: 48px;
+	display: flex;
+	align-items: flex-end;
+}
+
+#playlist-info span {
+	display: block;
+}
+
+#playlist-img {
+	width: 250px;
+	height: 250px;
+	margin-right: 32px;
+}
+
+#playlist-title {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+#playlist-songs {
+	margin-left: 16px;
+}
+
+#playlist-songs div {
+	margin-bottom: 32px;
+}
+
+#playlist-songs div span {
+	display: block;
+}
+
+#player {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+	background-color: #FFFFFF;
+	border-top: 1px solid #E5E7EB;
+	display: flex;
+}
+
+#player-cover {
+	width: 80px;
+	height: 80px;
+	margin-right: 16px;
+}
+
+#player-controls {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#player-controls img {
+	width: 40px;
+	height: 40px;
+}
+
+#player-play {
+	margin-right: 32px;
+	margin-left: 32px;
+}
+
+#player-song {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#powered-by-deezer {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	top: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-right: 16px;
+	transform: translate(0, -50%);
+
+}
+
+#deezer-logo {
+	width: 150px;
+	height: 30px;
+}
+
+#queue {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 80px;
+	width: 330px;
+	background-color: #F3F4F6;
+	border-bottom: 1px solid #E5E7EB;
+}
+
+#queue-play {
+	display: flex;
+	margin-left: 32px;
+	margin-top: 32px;
+}
+
+#queue-empty {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	color: #9CA3AF;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
